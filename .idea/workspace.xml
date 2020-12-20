@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="13049099-1dfd-40f9-9423-b1ae20ac536e" name="Default Changelist" comment="Composed modifc.">
-      <change beforePath="$PROJECT_DIR$/src/cat/udl/demosEP/Composed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cat/udl/demosEP/Composed.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cat/udl/demosEP/Parallel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cat/udl/demosEP/Parallel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cat/udl/demosEP/Sequential.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cat/udl/demosEP/Sequential.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cat/udl/demosEP/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cat/udl/demosEP/Task.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/cat/udl/demosEP/ParallelEmptyCombinedTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/cat/udl/demosEP/ParallelNotEmptyCombinedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/cat/udl/demosEP/ParallelNotEmptyCombinedTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/cat/udl/demosEP/SequentialEmptyCombinedTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/cat/udl/demosEP/SequentialEmptyOnlySimpleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/cat/udl/demosEP/SequentialEmptyOnlySimpleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/cat/udl/demosEP/SequentialNotEmptyCombinedTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/cat/udl/demosEP/SimpleTaskTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/cat/udl/demosEP/SimpleTaskTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="13049099-1dfd-40f9-9423-b1ae20ac536e" name="Default Changelist" comment="Composed, Parallel, Sequential modifc." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -150,7 +139,21 @@
       <option name="project" value="LOCAL" />
       <updated>1576794608581</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Composed, Parallel, Sequential modifc.">
+      <created>1608495657189</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1608495657189</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Composed, Parallel, Sequential modifc.">
+      <created>1608495697954</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1608495697954</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -200,7 +203,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Composed modifc." />
-    <option name="LAST_COMMIT_MESSAGE" value="Composed modifc." />
+    <MESSAGE value="Composed, Parallel, Sequential modifc." />
+    <option name="LAST_COMMIT_MESSAGE" value="Composed, Parallel, Sequential modifc." />
   </component>
   <component name="masterDetails">
     <states>

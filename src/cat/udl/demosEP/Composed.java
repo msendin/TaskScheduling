@@ -23,20 +23,12 @@ public abstract class Composed implements Task {
     @Override
     public BigDecimal costInEuros() {
         BigDecimal days = new BigDecimal("0.0");
-        /*
-        for (int i=0; i<schedTasks.size(); i++)
-            days = days.add(schedTasks.get(i).costInEuros());
-        return days;
-         */
-        return cost;  // Us de l'atribut cos; evita haver de recòrrer el bucle per calcular el cost cada cop
+        return cost;
     }
 
 
 
 
-
-    //@Override
-    //public abstract int durationInDays();
 }
 
 
