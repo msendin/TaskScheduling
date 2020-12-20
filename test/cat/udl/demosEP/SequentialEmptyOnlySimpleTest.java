@@ -14,7 +14,6 @@ public class SequentialEmptyOnlySimpleTest {
     @BeforeEach
     void setUp() {
         sq = new Sequential();
-        //t = new Simple(new BigDecimal("50.0"), 14);
     }
 
     @Test

@@ -10,18 +10,18 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class SimpleTaskTest {
 
     Simple s;
-    BigDecimal c = new BigDecimal("50.0");
 
     @BeforeEach
     void setUp() {
+        BigDecimal c = new BigDecimal("50.0");
         s = new Simple(c,14);
     }
 
     @Test
     void SimpleMethodsTest() {
+        BigDecimal c = new BigDecimal("50.0");
         assertEquals(c,s.costInEuros());
         assertEquals(14,s.durationInDays());
     }
-
 }
 

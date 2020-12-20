@@ -8,13 +8,7 @@ public class Sequential extends Composed implements Task {
 
     @Override
     public int durationInDays() {
-        int days = 0;
-
-        for (int i=0; i<schedTasks.size(); i++)
-            days += schedTasks.get(i).durationInDays();
-
-        //tDuration = days;
-        //return tDuration;
-        return days;
+        for (Task schedTask : schedTasks) duration += schedTask.durationInDays();
+        return duration;
     }
 }

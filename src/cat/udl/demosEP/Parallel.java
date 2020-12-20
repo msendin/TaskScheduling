@@ -10,13 +10,11 @@ public class Parallel extends Composed implements Task  {
     public int durationInDays() {
         int days = 0;
 
-        for (int i=0; i<schedTasks.size(); i++)
-            if (schedTasks.get(i).durationInDays() > days)
-                days = schedTasks.get(i).durationInDays();
-
-        //tDuration = days;
-        //return tDuration;
-        return days;
+        for (Task schedTask : schedTasks)
+            if (schedTask.durationInDays() > days)
+                days = schedTask.durationInDays();
+        duration = days;
+        return duration;
     }
 }
 

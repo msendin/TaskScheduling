@@ -31,10 +31,6 @@ public class ParallelNotEmptyCombinedTest {
 
     @Test
     void adSimpleSubtaskNotEmptyParallelTest() {
-        //BigDecimal c = new BigDecimal("75.0");
-
-        //t = new Simple(c, 7);
-        //pr.addSubtask(t);
         assertEquals(new BigDecimal("175.0"),pr.costInEuros());
         assertEquals(14,pr.durationInDays());
     }
