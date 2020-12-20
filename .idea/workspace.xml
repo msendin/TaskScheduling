@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="13049099-1dfd-40f9-9423-b1ae20ac536e" name="Default Changelist" comment="Composed modifc.">
+      <change beforePath="$PROJECT_DIR$/src/cat/udl/demosEP/Composed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cat/udl/demosEP/Composed.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cat/udl/demosEP/Parallel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cat/udl/demosEP/Parallel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cat/udl/demosEP/Sequential.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cat/udl/demosEP/Sequential.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cat/udl/demosEP/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cat/udl/demosEP/Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/cat/udl/demosEP/ParallelEmptyCombinedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/cat/udl/demosEP/ParallelNotEmptyCombinedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/cat/udl/demosEP/ParallelNotEmptyCombinedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/cat/udl/demosEP/SequentialEmptyCombinedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/cat/udl/demosEP/SequentialEmptyOnlySimpleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/cat/udl/demosEP/SequentialEmptyOnlySimpleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/cat/udl/demosEP/SequentialNotEmptyCombinedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/cat/udl/demosEP/SimpleTaskTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/cat/udl/demosEP/SimpleTaskTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-66" />
+    <option name="y" value="78" />
+    <option name="width" value="1890" />
+    <option name="height" value="930" />
+  </component>
+  <component name="ProjectId" id="1l1av2FNw6M3X8SwkdDzCRYaapL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576610668457" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ForestFireM" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.All in TaskScheduling">
+    <configuration name="All in TaskScheduling" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TaskScheduling" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParallelEmptyOnlySimpleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TaskScheduling" />
+      <option name="PACKAGE_NAME" value="cat.udl.demosEP" />
+      <option name="MAIN_CLASS_NAME" value="cat.udl.demosEP.ParallelEmptyOnlySimpleTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParallelNotEmptyCombinedTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TaskScheduling" />
+      <option name="PACKAGE_NAME" value="cat.udl.demosEP" />
+      <option name="MAIN_CLASS_NAME" value="cat.udl.demosEP.ParallelNotEmptyCombinedTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleTaskTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TaskScheduling" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cat.udl.demosEP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cat.udl.demosEP" />
+      <option name="MAIN_CLASS_NAME" value="cat.udl.demosEP.SimpleTaskTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="cat.udl.demosEP in TaskScheduling" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TaskScheduling" />
+      <option name="PACKAGE_NAME" value="cat.udl.demosEP" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.ParallelEmptyOnlySimpleTest" />
+      <item itemvalue="JUnit.ParallelNotEmptyCombinedTest" />
+      <item itemvalue="JUnit.cat.udl.demosEP in TaskScheduling" />
+      <item itemvalue="JUnit.SimpleTaskTest" />
+      <item itemvalue="JUnit.All in TaskScheduling" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.All in TaskScheduling" />
+        <item itemvalue="JUnit.cat.udl.demosEP in TaskScheduling" />
+        <item itemvalue="JUnit.ParallelNotEmptyCombinedTest" />
+        <item itemvalue="JUnit.SimpleTaskTest" />
+        <item itemvalue="JUnit.ParallelEmptyOnlySimpleTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="13049099-1dfd-40f9-9423-b1ae20ac536e" name="Default Changelist" comment="" />
+      <created>1576495041781</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576495041781</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <created>1576792948689</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1576792948689</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Composed modifc.">
+      <created>1576794608581</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1576794608581</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="ParallelEmptyOnlySimpleTest_adSimpleSubtaskTest - 2019.12.16 at 13h 34m 14s.xml">
+      <configuration name="ParallelEmptyOnlySimpleTest.adSimpleSubtaskTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ParallelNotEmptyOnlySimpleTest_adSimpleSubtaskNotEmptyTest - 2019.12.16 at 13h 34m 19s.xml">
+      <configuration name="ParallelNotEmptyOnlySimpleTest.adSimpleSubtaskNotEmptyTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="cat_udl_demosEP_in_TaskScheduling - 2019.12.16 at 13h 34m 28s.xml">
+      <configuration name="cat.udl.demosEP in TaskScheduling" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="cat_udl_demosEP_in_TaskScheduling - 2019.12.16 at 13h 36m 20s.xml">
+      <configuration name="cat.udl.demosEP in TaskScheduling" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ParallelNotEmptyCombinedTest - 2019.12.16 at 13h 42m 05s.xml">
+      <configuration name="ParallelNotEmptyCombinedTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ParallelNotEmptyCombinedTest - 2019.12.16 at 13h 43m 25s.xml">
+      <configuration name="ParallelNotEmptyCombinedTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ParallelNotEmptyCombinedTest - 2019.12.16 at 13h 46m 54s.xml">
+      <configuration name="ParallelNotEmptyCombinedTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ParallelNotEmptyCombinedTest - 2019.12.16 at 13h 48m 43s.xml">
+      <configuration name="ParallelNotEmptyCombinedTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ParallelEmptyOnlySimpleTest - 2019.12.17 at 20h 09m 04s.xml">
+      <configuration name="ParallelEmptyOnlySimpleTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="cat_udl_demosEP_in_TaskScheduling - 2019.12.17 at 20h 09m 09s.xml">
+      <configuration name="cat.udl.demosEP in TaskScheduling" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <MESSAGE value="Composed modifc." />
+    <option name="LAST_COMMIT_MESSAGE" value="Composed modifc." />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>TaskScheduling</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>org.junit.jupiter:junit-jupiter:5.6.0-M1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
