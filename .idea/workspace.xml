@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="13049099-1dfd-40f9-9423-b1ae20ac536e" name="Default Changelist" comment="Composed, Parallel, Sequential modifc." />
+    <list default="true" id="13049099-1dfd-40f9-9423-b1ae20ac536e" name="Default Changelist" comment="Composed modifc.">
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/cat/udl/demosEP/SequentialNotEmptyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TaskScheduling/cat/udl/demosEP/Composed.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TaskScheduling/cat/udl/demosEP/Composed.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TaskScheduling/cat/udl/demosEP/Parallel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TaskScheduling/cat/udl/demosEP/Parallel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TaskScheduling/cat/udl/demosEP/Sequential.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TaskScheduling/cat/udl/demosEP/Sequential.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/TaskScheduling/cat/udl/demosEP/ParallelEmptyOnlySimpleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/TaskScheduling/cat/udl/demosEP/ParallelEmptyOnlySimpleTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/TaskScheduling/cat/udl/demosEP/ParallelNotEmptyCombinedTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/TaskScheduling/cat/udl/demosEP/ParallelNotEmptyCombinedTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/TaskScheduling/cat/udl/demosEP/SequentialEmptyOnlySimpleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/TaskScheduling/cat/udl/demosEP/SequentialEmptyOnlySimpleTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/TaskScheduling/cat/udl/demosEP/SequentialNotEmptyOnlySimpleTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cat/udl/demosEP/Composed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cat/udl/demosEP/Composed.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/cat/udl/demosEP/ParallelEmptyOnlySimpleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/cat/udl/demosEP/ParallelEmptyOnlySimpleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/cat/udl/demosEP/ParallelNotEmptyCombinedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/cat/udl/demosEP/ParallelNotEmptyCombinedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/cat/udl/demosEP/SequentialEmptyOnlySimpleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/cat/udl/demosEP/SequentialEmptyOnlySimpleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/cat/udl/demosEP/SequentialNotEmptyOnlySimpleTest.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,6 +50,7 @@
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576610668457" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../ForestFireM" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -55,25 +72,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ParallelEmptyOnlySimpleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TaskScheduling" />
-      <option name="PACKAGE_NAME" value="cat.udl.demosEP" />
-      <option name="MAIN_CLASS_NAME" value="cat.udl.demosEP.ParallelEmptyOnlySimpleTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ParallelNotEmptyCombinedTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TaskScheduling" />
-      <option name="PACKAGE_NAME" value="cat.udl.demosEP" />
-      <option name="MAIN_CLASS_NAME" value="cat.udl.demosEP.ParallelNotEmptyCombinedTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SimpleTaskTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ParallelNotEmptyCombinedTest.adComposedSubtasksTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TaskScheduling" />
       <extension name="coverage">
         <pattern>
@@ -82,8 +81,41 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="cat.udl.demosEP" />
-      <option name="MAIN_CLASS_NAME" value="cat.udl.demosEP.SimpleTaskTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="cat.udl.demosEP.ParallelNotEmptyCombinedTest" />
+      <option name="METHOD_NAME" value="adComposedSubtasksTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParallelNotEmptyCombinedTest.adSimpleSubtaskTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TaskScheduling" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cat.udl.demosEP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cat.udl.demosEP" />
+      <option name="MAIN_CLASS_NAME" value="cat.udl.demosEP.ParallelNotEmptyCombinedTest" />
+      <option name="METHOD_NAME" value="adSimpleSubtaskTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SequentialNotEmptyOnlySimpleTest.adComposedSubtasksTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TaskScheduling" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cat.udl.demosEP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cat.udl.demosEP" />
+      <option name="MAIN_CLASS_NAME" value="cat.udl.demosEP.SequentialNotEmptyOnlySimpleTest" />
+      <option name="METHOD_NAME" value="adComposedSubtasksTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -97,19 +129,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.ParallelEmptyOnlySimpleTest" />
-      <item itemvalue="JUnit.ParallelNotEmptyCombinedTest" />
-      <item itemvalue="JUnit.cat.udl.demosEP in TaskScheduling" />
-      <item itemvalue="JUnit.SimpleTaskTest" />
       <item itemvalue="JUnit.All in TaskScheduling" />
+      <item itemvalue="JUnit.cat.udl.demosEP in TaskScheduling" />
+      <item itemvalue="JUnit.SequentialNotEmptyOnlySimpleTest.adComposedSubtasksTest" />
+      <item itemvalue="JUnit.ParallelNotEmptyCombinedTest.adSimpleSubtaskTest" />
+      <item itemvalue="JUnit.ParallelNotEmptyCombinedTest.adComposedSubtasksTest" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.All in TaskScheduling" />
+        <item itemvalue="JUnit.ParallelNotEmptyCombinedTest.adComposedSubtasksTest" />
+        <item itemvalue="JUnit.ParallelNotEmptyCombinedTest.adSimpleSubtaskTest" />
+        <item itemvalue="JUnit.SequentialNotEmptyOnlySimpleTest.adComposedSubtasksTest" />
         <item itemvalue="JUnit.cat.udl.demosEP in TaskScheduling" />
-        <item itemvalue="JUnit.ParallelNotEmptyCombinedTest" />
-        <item itemvalue="JUnit.SimpleTaskTest" />
-        <item itemvalue="JUnit.ParallelEmptyOnlySimpleTest" />
       </list>
     </recent_temporary>
   </component>
@@ -153,7 +185,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608495697954</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Composed modifc.">
+      <created>1608495931380</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1608495931380</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -202,9 +241,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <MESSAGE value="Composed modifc." />
     <MESSAGE value="Composed, Parallel, Sequential modifc." />
-    <option name="LAST_COMMIT_MESSAGE" value="Composed, Parallel, Sequential modifc." />
+    <MESSAGE value="Composed modifc." />
+    <option name="LAST_COMMIT_MESSAGE" value="Composed modifc." />
   </component>
   <component name="masterDetails">
     <states>

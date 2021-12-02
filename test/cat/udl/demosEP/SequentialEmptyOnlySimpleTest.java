@@ -9,7 +9,6 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class SequentialEmptyOnlySimpleTest {
     Sequential sq;
-    Task t;
 
     @BeforeEach
     void setUp() {
@@ -19,11 +18,9 @@ public class SequentialEmptyOnlySimpleTest {
     @Test
     void adSimpleSubtaskSequentialTest() {
         BigDecimal c = new BigDecimal("50.0");
-
-        t = new Simple(c, 14);
+        Task t = new Simple(c, 14);
         sq.addSubtask(t);
         assertEquals(c,sq.costInEuros());
         assertEquals(14,sq.durationInDays());
     }
-
 }

@@ -12,18 +12,14 @@ public class ParallelEmptyOnlySimpleTest {
     Task t;
 
     @BeforeEach
-    void setUp() {
-        pr = new Parallel();
-    }
+    void setUp() { pr = new Parallel(); }
 
     @Test
     void adSimpleSubtaskParallelTest() {
         BigDecimal c = new BigDecimal("50.0");
-
         t = new Simple(c, 14);
         pr.addSubtask(t);
         assertEquals(c,pr.costInEuros());
         assertEquals(14,pr.durationInDays());
     }
-
 }

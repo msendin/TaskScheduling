@@ -22,13 +22,8 @@ public abstract class Composed implements Task {
 
     @Override
     public BigDecimal costInEuros() {
-        BigDecimal days = new BigDecimal("0.0");
         return cost;
     }
-
-
-
-
 }
 
 
