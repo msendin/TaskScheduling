@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="13049099-1dfd-40f9-9423-b1ae20ac536e" name="Default Changelist" comment="Composed modifc.">
-      <change beforePath="$PROJECT_DIR$/test/cat/udl/demosEP/ParallelNotEmptyOnlySimpleTest.java" beforeDir="false" />
+    <list default="true" id="13049099-1dfd-40f9-9423-b1ae20ac536e" name="Default Changelist" comment="New test Methods added">
+      <change afterPath="$PROJECT_DIR$/test/cat/udl/demosEP/interfaces/ComposedNotEmptyInterfaceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/cat/udl/demosEP/ParallelNotEmptyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/cat/udl/demosEP/ParallelNotEmptyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/cat/udl/demosEP/SequentialNotEmptyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/cat/udl/demosEP/SequentialNotEmptyTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,8 +15,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -185,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638445898649</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="New test Methods added">
+      <created>1638446041542</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1638446041542</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -236,7 +246,8 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Composed, Parallel, Sequential modifc." />
     <MESSAGE value="Composed modifc." />
-    <option name="LAST_COMMIT_MESSAGE" value="Composed modifc." />
+    <MESSAGE value="New test Methods added" />
+    <option name="LAST_COMMIT_MESSAGE" value="New test Methods added" />
   </component>
   <component name="masterDetails">
     <states>

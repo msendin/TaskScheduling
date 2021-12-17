@@ -1,5 +1,6 @@
 package cat.udl.demosEP;
 
+import cat.udl.demosEP.interfaces.ComposedNotEmptyInterfaceTest;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -7,12 +8,13 @@ import java.math.BigDecimal;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class ParallelNotEmptyTest {
+public class ParallelNotEmptyTest implements ComposedNotEmptyInterfaceTest {
     Parallel pr;
     Task t;
 
+    @Override
     @BeforeEach
-    void setUp() {
+    public void setUp() {
         Parallel pr1;
 
         pr = new Parallel();
@@ -28,16 +30,18 @@ public class ParallelNotEmptyTest {
 
     }
 
+    @Override
     @Test
-    void adSimpleSubtaskTest() {
+    public void adSimpleSubtaskTest() {
         t = new Simple(new BigDecimal("75.0"), 7);
         pr.addSubtask(t);
         assertEquals(new BigDecimal("200.0"),pr.costInEuros());
         assertEquals(14,pr.durationInDays());
     }
 
+    @Override
     @Test
-    void adComposedSubtasksTest() {
+    public void adComposedSubtasksTest() {
         Parallel p;
         Sequential sq;
         Task t1, t2;
