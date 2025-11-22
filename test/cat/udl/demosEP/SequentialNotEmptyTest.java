@@ -12,7 +12,6 @@ public class SequentialNotEmptyTest implements ComposedNotEmptyInterfaceTest {
     Sequential sq;
     Task t;
 
-    @Override
     @BeforeEach
     public void setUp() {
         sq = new Sequential();

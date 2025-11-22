@@ -12,7 +12,6 @@ public class ParallelNotEmptyTest implements ComposedNotEmptyInterfaceTest {
     Parallel pr;
     Task t;
 
-    @Override
     @BeforeEach
     public void setUp() {
         Parallel pr1;
